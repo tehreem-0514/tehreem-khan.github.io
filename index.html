@@ -1,20 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tehreem Khan - Portfolio</title>
+    <title>Tehreem Khan - Portfolio & CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- For responsiveness -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Importing Roboto font -->
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #2c3e50; }
-        p { font-size: 18px; }
+        body {
+            font-family: 'Roboto', sans-serif; /* Modern, professional font */
+            background-color: #f4f4f4; /* Light gray background for a clean look */
+            margin: 0;
+            padding: 20px;
+            color: #333; /* Dark gray text for readability */
+        }
+        
+        .container {
+            max-width: 800px; /* Limit width for better readability */
+            margin: 0 auto; /* Center the content */
+            background-color: #fff; /* White background for the main content */
+            padding: 30px;
+            border-radius: 8px; /* Rounded corners for a modern feel */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+        
+        h1 {
+            color: #2c3e50; /* Dark blue for headings */
+            font-size: 28px;
+            border-bottom: 2px solid #3498db; /* Accent color for a underline effect */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #3498db; /* Lighter blue for subheadings */
+            font-size: 22px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 16px; /* Slightly smaller for body text */
+            line-height: 1.6; /* Better spacing between lines */
+            margin-bottom: 15px;
+        }
+        
+        a {
+            color: #3498db; /* Blue for links */
+            text-decoration: none; /* Remove underline by default */
+            font-weight: bold; /* Make links stand out */
+        }
+        
+        a:hover {
+            text-decoration: underline; /* Add underline on hover for interactivity */
+        }
+        
+        ul {
+            list-style-type: disc; /* Bullet points for lists */
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Tehreem Khan</h1>
-    <p>Email: tehreem@example.com</p>
-    <p>GitHub: <a href="https://github.com/tehreem-0514">https://github.com/tehreem-0514</a></p>
-    <h2>Education</h2>
-    <p>Department of Software Engineering, Fatima Jinnah Women University</p>
-    <h2>Skills</h2>
-    <p>Git, GitHub, HTML, CSS, C++, Database Systems</p>
+    <div class="container">
+        <h1>Tehreem Khan</h1>
+        <p><strong>Email:</strong> tehreem@example.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/tehreem-0514">https://github.com/tehreem-0514</a></p>
+        
+        <h2>Education</h2>
+        <p>Department of Software Engineering, Fatima Jinnah Women University</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>Database Systems</li>
+        </ul>
+        
+        <!-- You can add more sections here, like: -->
+        <!-- <h2>Professional Summary</h2>
+        <p>A brief summary about yourself...</p> -->
+        
+        <!-- <h2>Work Experience</h2>
+        <p>Your experience details...</p> -->
+    </div>
 </body>
 </html>
