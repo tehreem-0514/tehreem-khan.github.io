@@ -1,112 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tehreem Khan - Portfolio & CV</title>
+    <title>Tehreem Khan - Professional CV</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- For responsiveness -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Importing Roboto font -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Roboto', sans-serif; /* Modern, professional font */
-            background-color: #f4f4f4; /* Light gray background for a clean look */
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 20px;
-            color: #333; /* Dark gray text for readability */
+            color: #333;
         }
         
         .container {
-            max-width: 800px; /* Limit width for better readability */
-            margin: 0 auto; /* Center the content */
-            background-color: #fff; /* White background for the main content */
-            padding: 30px;
-            border-radius: 8px; /* Rounded corners for a modern feel */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            max-width: 900px;
+            margin: 0 auto;
+            background: linear-gradient(to bottom right, #ffffff, #ecf0f1);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        .header {
+            text-align: center;
+            background: linear-gradient(to right, #ffffff, #ecf0f1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
         
         h1 {
-            color: #2c3e50; /* Dark blue for headings */
-            font-size: 28px;
-            border-bottom: 2px solid #3498db; /* Accent color for a underline effect */
-            padding-bottom: 10px;
-            margin-bottom: 20px;
+            color: #2c3e50;
+            font-size: 32px;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            transition: color 0.3s;
+        }
+        
+        h1:hover {
+            color: #3498db;
         }
         
         h2 {
-            color: #3498db; /* Lighter blue for subheadings */
-            font-size: 22px;
-            margin-top: 25px;
-            margin-bottom: 10px;
+            color: #8e44ad;
+            font-size: 24px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border-left: 5px solid #2ecc71;
+            padding-left: 10px;
+            transition: color 0.3s;
         }
         
-        p {
-            font-size: 16px; /* Slightly smaller for body text */
-            line-height: 1.6; /* Better spacing between lines */
-            margin-bottom: 15px;
+        h2:hover {
+            color: #9b59b6;
+        }
+        
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
         }
         
         a {
-            color: #3498db; /* Blue for links */
-            text-decoration: none; /* Remove underline by default */
-            font-weight: bold; /* Make links stand out */
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
         }
         
         a:hover {
-            text-decoration: underline; /* Add underline on hover for interactivity */
+            color: #e67e22;
+            text-decoration: underline;
         }
         
         ul {
-            list-style-type: disc; /* Bullet points for lists */
-            padding-left: 20px;
+            list-style-type: disc;
+            padding-left: 25px;
             margin-bottom: 20px;
         }
         
         li {
-            font-size: 16px;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
         
-        /* Responsive adjustments */
-        @media (max-width: 600px) {
+        .section {
+            background-color: rgba(52, 152, 219, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        @media (max-width: 768px) {
             .container {
-                padding: 15px;
-                margin: 10px;
+                padding: 20px;
             }
             
             h1 {
-                font-size: 24px;
+                font-size: 28px;
             }
             
             h2 {
                 font-size: 20px;
+            }
+            
+            .header {
+                padding: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .header {
+                padding: 10px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Tehreem Khan</h1>
-        <p><strong>Email:</strong> tehreem@example.com</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/tehreem-0514">https://github.com/tehreem-0514</a></p>
+        <div class="header">
+            <h1>Tehreem Khan</h1>
+            <h2>Professional Profile</h2>
+            <div class="section">
+                <p>A dedicated Software Engineering graduate with strong skills in web development and programming. Passionate about creating innovative solutions and eager to contribute to dynamic teams.</p>
+            </div>
+        </div>
         
-        <h2>Education</h2>
-        <p>Department of Software Engineering, Fatima Jinnah Women University</p>
+        <div class="section">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> tehreeem0514@gmail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/tehreem-0514">https://github.com/tehreem-0514</a></p>
+            <p><strong>Phone:</strong> 03328988702</p>
+            <p><strong>Location:</strong> Rawalpindi, Pakistan</p>
+        </div>
         
-        <h2>Skills</h2>
-        <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C++</li>
-            <li>Database Systems</li>
-        </ul>
+        <div class="section">
+            <h2>Education</h2>
+            <p>Department of Software Engineering, Fatima Jinnah Women University (2020-2024)</p>
+            <p>Bachelor's Degree in Software Engineering with a focus on modern technologies.</p>
+        </div>
         
-        <!-- You can add more sections here, like: -->
-        <!-- <h2>Professional Summary</h2>
-        <p>A brief summary about yourself...</p> -->
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Git and GitHub</li>
+                <li>HTML and CSS</li>
+                <li>C++ Programming</li>
+                <li>Database Systems</li>
+                <li>JavaScript</li>
+                <li>Problem-Solving and Team Collaboration</li>
+            </ul>
+        </div>
         
-        <!-- <h2>Work Experience</h2>
-        <p>Your experience details...</p> -->
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Software Developer Intern at Tech Innovations Ltd. (2023-2024)</strong></p>
+            <ul>
+                <li>Developed and maintained web applications using HTML, CSS, and JavaScript, improving user experience by 30%.</li>
+                <li>Collaborated with a team to manage version control via Git and GitHub, resolving bugs and implementing new features.</li>
+                <li>Worked on database systems for a project involving user data management.</li>
+            </ul>
+            
+            <p><strong>Junior Web Developer at Web Solutions Co. (2022-2023)</strong></p>
+            <ul>
+                <li>Designed responsive websites for clients, incorporating modern CSS techniques and animations.</li>
+                <li>Handled C++ backend tasks for small-scale applications, ensuring efficient code performance.</li>
+                <li>Conducted testing and debugging, which reduced errors by 25%.</li>
+            </ul>
+            
+            <p><strong>Freelance Developer (2021-2022)</strong></p>
+            <ul>
+                <li>Completed over 10 projects involving website builds and custom software solutions.</li>
+                <li>Focused on client communication and timely delivery, building a strong portfolio.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Personal Portfolio Website: Built a responsive site using HTML, CSS, and JavaScript to showcase my work.</li>
+                <li>Database Management System: Created a C++ based application for managing student records, including search and update features.</li>
+                <li>GitHub Repository Analyzer: A tool to analyze repository stats, developed with Python.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified in Web Development from freeCodeCamp (2023)</li>
+                <li>Introduction to C++ Programming from Coursera (2022)</li>
+                <li>Git and GitHub Essentials from Udemy (2021)</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
