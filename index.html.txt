@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tehreem Khan - Professional CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tehreem Khan</h1>
+            <h2>Professional Profile</h2>
+            <div class="section">
+                <p>A dedicated Software Engineering graduate with strong skills in web development and programming. Passionate about creating innovative solutions and eager to contribute to dynamic teams.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> tehreeem0514@gmail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/tehreem-0514">https://github.com/tehreem-0514</a></p>
+            <p><strong>Phone:</strong> 03328988702</p>
+            <p><strong>Location:</strong> Rawalpindi, Pakistan</p>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <p>Department of Software Engineering, Fatima Jinnah Women University (2020-2024)</p>
+            <p>Bachelor's Degree in Software Engineering with a focus on modern technologies.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Git and GitHub</li>
+                <li>HTML and CSS</li>
+                <li>C++ Programming</li>
+                <li>Database Systems</li>
+                <li>JavaScript</li>
+                <li>Problem-Solving and Team Collaboration</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Software Developer Intern at Tech Innovations Ltd. (2023-2024)</strong></p>
+            <ul>
+                <li>Developed and maintained web applications using HTML, CSS, and JavaScript, improving user experience by 30%.</li>
+                <li>Collaborated with a team to manage version control via Git and GitHub, resolving bugs and implementing new features.</li>
+                <li>Worked on database systems for a project involving user data management.</li>
+            </ul>
+            
+            <p><strong>Junior Web Developer at Web Solutions Co. (2022-2023)</strong></p>
+            <ul>
+                <li>Designed responsive websites for clients, incorporating modern CSS techniques and animations.</li>
+                <li>Handled C++ backend tasks for small-scale applications, ensuring efficient code performance.</li>
+                <li>Conducted testing and debugging, which reduced errors by 25%.</li>
+            </ul>
+            
+            <p><strong>Freelance Developer (2021-2022)</strong></p>
+            <ul>
+                <li>Completed over 10 projects involving website builds and custom software solutions.</li>
+                <li>Focused on client communication and timely delivery, building a strong portfolio.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Personal Portfolio Website: Built a responsive site using HTML, CSS, and JavaScript to showcase my work.</li>
+                <li>Database Management System: Created a C++ based application for managing student records, including search and update features.</li>
+                <li>GitHub Repository Analyzer: A tool to analyze repository stats, developed with Python.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified in Web Development from freeCodeCamp (2023)</li>
+                <li>Introduction to C++ Programming from Coursera (2022)</li>
+                <li>Git and GitHub Essentials from Udemy (2021)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
